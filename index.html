@@ -86,7 +86,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                     <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-layers"></i>
+            <i class="icon-layers" data-toggle="modal" data-target="#basicExampleModal"></i>
           </span>
                     <h4>
                         <strong>Mongo</strong>
@@ -97,7 +97,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                     <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-globe-alt"></i>
+            <i class="icon-globe-alt" data-toggle="modal1" data-target="#basicExampleModal1"></i>
           </span>
                     <h4>
                         <strong>Express</strong>
@@ -108,7 +108,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
                     <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-fire"></i>
+            <i class="icon-fire" data-toggle="modal2" data-target="#basicExampleModal2"></i>
           </span>
                     <h4>
                         <strong>React</strong>
@@ -120,7 +120,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
+            <i class="icon-mustache" data-toggle="modal3" data-target="#basicExampleModal3"></i>
           </span>
                     <h4>
                         <strong>Node</strong>
@@ -133,12 +133,92 @@
         </div>
     </section>
 
+    <!-- Modal -->
+    <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">You found a secret</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+                </div>
+                <div class="modal-body">
+                    <h1>Mongo</h1>
+                    <p>My favorite aspect of Coding is working with databases. While walking down the street, I think about how I can store what I am witnessing into comprehensable bits. Resulting in effecient observation, and effective navigation.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="basicExampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel1">You found a secret</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    <h1>Express</h1>
+                    <p>I first learned about express in my Bootcamp at UC Davis. I immidiately fell in love with it because of the structure required. Later I realized how powerful it was, and began to dream about it.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="basicExampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">You found a secret</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <h1>React</h1>
+                    <p>Still learning react.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="basicExampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel3">You found a secret</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+                </div>
+                <div class="modal-body">
+                    <h1>Node</h1>
+                    <p>When I first learned Node, I was floored by its awesomeness.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Callout -->
     <section class="callout">
         <div class="container text-center">
             <h2 class="mx-auto mb-5" style="color: honeydew;">
-                This is
-                <em>MY</em> work!
+                This is <em>MY</em> work!
             </h2>
             <a class="btn btn-primary btn-xl" href="https://github.com/Greezon">Check out my GitHub</a>
         </div>
